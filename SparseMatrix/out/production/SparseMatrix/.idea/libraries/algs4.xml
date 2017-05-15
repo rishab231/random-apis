@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="algs4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/algs4.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/jh61b.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/junit-4.12.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/SeamRemover.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/stdlib-package.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/stdlib.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/xchart-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/algs4.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/jh61b.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/stdlib-package.jar!/" />
+      <root url="jar://$USER_HOME$/cs61b/cfg/javalib/stdlib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
