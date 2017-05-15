@@ -19,8 +19,8 @@
       <file leaf-file-name="SparseMatrix.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SparseMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="143" column="39" lean-forward="false" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+            <state relative-caret-position="169">
+              <caret line="160" column="39" lean-forward="true" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
@@ -42,6 +42,8 @@
       <find>fori</find>
       <find>for</find>
       <find>print</find>
+      <find>int</find>
+      <find>++</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -382,7 +384,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -393,8 +395,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SparseMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="143" column="39" lean-forward="false" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="39" />
+        <state relative-caret-position="169">
+          <caret line="160" column="39" lean-forward="true" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />

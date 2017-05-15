@@ -88,11 +88,12 @@ public class SparseMatrix<T> {
 				if (item==null) {
 					System.out.print("NOVALUE ");
 				} else {
-					System.out.println(item);
+					System.out.print(item+" ");
 				}
 			}
 			System.out.print("]");
 		}
+		System.out.println();
 	}
 
 	// Get the Nth row of matrix as a list
@@ -107,7 +108,7 @@ public class SparseMatrix<T> {
 
 	// Prints the Mth column of the matrix
 	public void printCol(int M) {
-		for (int i = 0; i < numRows; i++) {
+		for (int i = 1; i <= numRows; i++) {
 			Map<Integer, T> tRow = matrix.get(i);
 			if (tRow==null) {
 				System.out.println("NOVALUE");
@@ -124,12 +125,14 @@ public class SparseMatrix<T> {
 	// Get the Mth column of matrix as a list
 	public List<T> getCol(int M) {
 		List<T> items = new LinkedList<T>();
-		for (int i = 0; i < numRows; i++) {
+		for (int i = 1; i <= numRows; i++) {
 			Map<Integer, T> tRow = matrix.get(i);
 			if (tRow==null) {
 				items.add(null);
+			} else {
+				T prom = tRow.get(M);
+				items.add(prom);
 			}
-			items.add(tRow.get(M));
 		}
 		return items;
 	}
@@ -141,9 +144,26 @@ public class SparseMatrix<T> {
 		check.put(1,1,12);
 		check.put(2,2,34);
 		check.print();
+		System.out.println("=========");
 		List<Integer> secondRow = check.getRow(2);
 		for (Object r2 : secondRow) {
 			System.out.println(r2);
 		}
+		System.out.println("=========");
+		List<Integer> secondCol = check.getCol(2);
+		for (Object c2 : secondCol) {
+			System.out.println(c2);
+		}
+		System.out.println("=========");
+		check.printCol(4);
+		System.out.println("=========");
+		check.printRow(2);
+		System.out.println("=========");
+		double currPoints = 531.9;
+		double goldPoints = 7.212;
+		double finalScore = 117.5;
+		double sumScores = 91.83 + 62.1 + finalScore;
+		double additionalPoints = 2*(goldPoints-goldPoints*sumScores/400);
+		System.out.println(currPoints+6+finalScore+additionalPoints);
 	}
 }
