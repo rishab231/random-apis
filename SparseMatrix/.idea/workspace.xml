@@ -19,8 +19,8 @@
       <file leaf-file-name="SparseMatrix.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SparseMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="160" column="39" lean-forward="true" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+            <state relative-caret-position="214">
+              <caret line="163" column="33" lean-forward="false" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
@@ -395,8 +395,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SparseMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="160" column="39" lean-forward="true" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+        <state relative-caret-position="214">
+          <caret line="163" column="33" lean-forward="false" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />

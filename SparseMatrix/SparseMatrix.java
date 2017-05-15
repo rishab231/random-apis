@@ -159,9 +159,9 @@ public class SparseMatrix<T> {
 		System.out.println("=========");
 		check.printRow(2);
 		System.out.println("=========");
-		double currPoints = 531.9;
+		double currPoints = 531.93;
 		double goldPoints = 7.212;
-		double finalScore = 117.5;
+		double finalScore = 116.5;
 		double sumScores = 91.83 + 62.1 + finalScore;
 		double additionalPoints = 2*(goldPoints-goldPoints*sumScores/400);
 		System.out.println(currPoints+6+finalScore+additionalPoints);
