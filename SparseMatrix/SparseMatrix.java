@@ -163,6 +163,7 @@ public class SparseMatrix<T> {
 		double goldPoints = 7.212;
 		double finalScore = 115;
 		double sumScores = 91.83 + 62.1 + finalScore;
+		System.out.println("only score"+ (finalScore+6+currPoints));
 		double additionalPoints = 2*(goldPoints-goldPoints*sumScores/400);
 		System.out.println(currPoints+6+finalScore+additionalPoints);
 	}

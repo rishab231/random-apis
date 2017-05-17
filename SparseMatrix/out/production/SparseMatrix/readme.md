@@ -1,12 +1,21 @@
-## 1. Sparse Matrix / 2D Array
+## Sparse Matrix / 2D Array
 
 While working on a large dataset in Java, I came across a need to create an efficient way to create a very sparse matrix i.e. one with a large number of 0/Null/NaN values. This API gives an slightly better alternative way to store and perform operations on such values.
 
 ### Prerequisites
-All items (Integer, FLoat, Double et all.), including user defined objects can be stored in the array.
+All items (Integer, Float, Double et all.), including user defined objects can be stored in the array.
 
 ```java
-public static void main
+public class SparseMatrix<T> {
+
+	public void put(int N, int M, T item) // Puts an item T in row N and column M
+	public void print() // Prints out the matrix
+	public T get(int N, int M) // Get the item in row N and column M
+	public void printRow(int x) // Prints the Nth row of the matrix
+	public List<T> getRow(int N) // Get the Nth row of matrix as a list
+	public void printCol(int M) // Prints the Mth column of the matrix
+	public List<T> getCol(int M) // Get the Mth column of matrix as a list
+}
 ```
 
 ### Running the tests
