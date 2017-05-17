@@ -50,7 +50,7 @@ public void getTester();
 
 ### Built With
 
-[IntelliJ for Java](http://www.dropwizard.io/1.0.2/docs/) 
+[IntelliJ for Java](https://www.jetbrains.com/idea/) 
 
 ### Author
 
