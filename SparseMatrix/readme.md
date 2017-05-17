@@ -55,9 +55,3 @@ public void getTester();
 ### Author
 
 * **Rishab Srivastava** - [Data Spelunking](https://rishab231.github.io/)
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc

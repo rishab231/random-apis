@@ -21,10 +21,10 @@ public class CSVReader {
 		csvSplitBy = recordDelimiter;
 		lstMaps = new LinkedList<>();
 		String headers[] = new String[1];
-		readPlayers();
+		readmyFile();
 	}
 
-	private void readPlayers() {
+	private void readmyFile() {
 		boolean isHeader = true;
 
 		//String csvFile = "/Users/mkyong/csv/country.csv";
