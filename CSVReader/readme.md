@@ -1,6 +1,6 @@
 ## CSVReader
 
-While working on a large dataset in Java, I came across a need to create an efficient way to store CSV files. This API reads in a CSV file for you using Java's `BufferedReader` and stores it as a list of maps from Header (Stored as a `String`) -> `Attribute`, which is a wrapper class around either an `Integer` or a `String`. (This can be modified for other types such as `Double` as well as other User-Defined Classes);
+While working on a large dataset in Java, I came across a need to create an efficient way to store CSV files. This API reads in a CSV file for you using Java's `BufferedReader` and stores it as a list of maps from Header (Stored as a `String`) -> `Attribute`, which is a wrapper class around either an `Integer` or a `String`. (This can be modified for other types such as `Double` as well as other User-Defined Classes).
 
 ### Prerequisites
 
@@ -17,6 +17,7 @@ I have included two methods `getHeaders` and `printFile`. Their API is given bel
 
 ```java
 public String[] getHeaders; // Returns the column headers (first line of the CSV) as an Array of Strings
+
 /* Returns the contents of the file in a List of Maps format. The maps have the column header as a key and an `Attribute` (Wrapper class) as value. As a result, each row is represesnted as a map in the list. 
 */
 public List<Map<String, Attribute>> compiled() {
