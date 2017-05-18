@@ -18,7 +18,9 @@ I have included two methods `getHeaders` and `printFile`. Their API is given bel
 ```java
 public String[] getHeaders; // Returns the column headers (first line of the CSV) as an Array of Strings
 
-/* Returns the contents of the file in a List of Maps format. The maps have the column header as a key and an `Attribute` (Wrapper class) as value. As a result, each row is represesnted as a map in the list. 
+/* Returns the contents of the file in a List of Maps format. 
+The maps have the column header as a key and an `Attribute` (Wrapper class) as value. 
+As a result, each row is represesnted as a map in the list. 
 */
 public List<Map<String, Attribute>> compiled() {
 	return lstMaps; // lstMaps is constructed in the constructor of CSVReader itself using the private method readmyFile
