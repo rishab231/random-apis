@@ -16,7 +16,7 @@ public class CSVReader {
 	public List<Map<String, Attribute>> lstMaps;
 	String[] headers;
 
-	public CSVReader(String fileDirectory, String recordDelimiter) {
+	public CSVReader(String fileDirectory, String recordDelimiter=",") {
 		csvFile = fileDirectory;
 		csvSplitBy = recordDelimiter;
 		lstMaps = new LinkedList<>();
@@ -26,11 +26,7 @@ public class CSVReader {
 
 	private void readmyFile() {
 		boolean isHeader = true;
-
-		//String csvFile = "/Users/mkyong/csv/country.csv";
 		BufferedReader br = null;
-		//String line = "";
-		//String cvsSplitBy = ",";
 
 		try {
 			br = new BufferedReader(new FileReader(csvFile));
@@ -120,6 +116,9 @@ public class CSVReader {
 	public static void main(String[] args) {
 		CSVReader csvx = new CSVReader("fut2016_database/fut2016_database.csv",",");
 		csvx.printFile();
-		csv.getHeaders();
+		String[] myHeaders = csv.getHeaders();
+		for (String s : myHeaders) {
+			System.out.println(s+" ");
+		}
 	}
 }
